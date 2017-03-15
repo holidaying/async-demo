@@ -198,6 +198,7 @@ getLoc: function() {
 * 4、代码的易读性来将，async-await更加易读简介，也更加符合代码的语意。而且还不用引用第三方库，也无需学习Generator那一堆东西，使用成本非常低。
 [demo](https://holidaying.github.io/async-demo/async/wait.html)
 
+附上[demo](https://github.com/holidaying/async-demo)如果觉得好就关注吧
 
 
 
