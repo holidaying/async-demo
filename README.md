@@ -112,7 +112,7 @@ promise = new Promise(function(resolve, reject) {
 * 2、使得原本的多层级的嵌套代码，变成了链式调用
 * 3、让代码更清晰，减少嵌套数
 * 缺点：Promise 的最大问题是代码冗余，原来的任务被Promise 包装了一下，不管什么操作，一眼看去都是一堆 then，原来的语义变得很不清楚。
-[demo]()
+[demo](https://holidaying.github.io/async-demo/async/index.html)
 
 ![Paste_Image.png](http://upload-images.jianshu.io/upload_images/2604175-d2bdf103d7746341.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -152,7 +152,7 @@ function* generator() {
 * 1、利用迭代器原理，解决异步问题
 * 2、让代码更清晰，减少嵌套数。
 * 缺点：虽然 Generator 函数将异步操作表示得很简洁，但是流程管理却不方便
-[demo]()
+[demo](https://holidaying.github.io/async-demo/async/generator.html)
 
 * 3、async和wait
 ```
@@ -196,7 +196,7 @@ getLoc: function() {
 * 2、await后面不能再跟thunk函数，而必须跟一个Promise对象（因此，Promise才是异步的终极解决方案和未来）。跟其他类型的数据也OK，但是会直接同步执行，而不是异步。
 * 3、让代码更清晰，减少嵌套数。
 * 4、代码的易读性来将，async-await更加易读简介，也更加符合代码的语意。而且还不用引用第三方库，也无需学习Generator那一堆东西，使用成本非常低。
-[demo]()
+[demo](https://holidaying.github.io/async-demo/async/wait.html)
 
 
 
